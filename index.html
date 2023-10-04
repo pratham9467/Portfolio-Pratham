@@ -4,46 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    /> -->
+    
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="main">
-      <!-- header -->
-      <div class="nav flex justify-between my-3 mx-5 ">
-        <div class="logo px-2">Pratham</div>
-        <div>
-          <ul class="nav flex flex-wrap px-2 gap-6">
-            <li class="nav-item">
-              <a href="#" class="nav-link text-black" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-black">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-black">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-black">Project</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-black">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <body class="main-content">
+    <!-- header -->
+    <header class="section sec1 header active"></header>
+   
+    <main>
+      <section class="section sec2 About"></section>
+      <section class="section sec3 Portfolio"></section>
+      <section class="section sec4 Blog"></section>
+      <section class="section sec5 Contact"></section>
+    </main>
 
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script> -->
+    <div class="controlls">
+      <div class="control control-1 active-btn">
+        <img class="mx-3" src="./assets/house-gear-fill.svg">
+      </div>
+      <div class="control control-2"></div>
+      <div class="control control-3"></div>
+      <div class="control control-4"></div>
+      <div class="control control-5"></div>
+    </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
