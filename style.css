@@ -92,9 +92,10 @@ section {
   transform: translateY(0) scale(1);
 }
 
-.active {
+.active{
   display: block;
 }
+
 .control {
   padding: 1rem;
   cursor: pointer;
