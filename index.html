@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="main-content">
     <!-- header -->
     <header class="section sec1 header active"></header>
-   
+
     <main>
       <section class="section sec2 About"></section>
       <section class="section sec3 Portfolio"></section>
@@ -18,16 +18,33 @@
       <section class="section sec5 Contact"></section>
     </main>
 
-    <div class="controlls">
+    <div class="controlls fixed z-10 top-32 right-3 flex flex-col translate-y-50">
       <div class="control control-1 active-btn">
-        <img class="mx-3" src="./assets/house-gear-fill.svg">
+        <img
+          class="pointer-events-none h-5 w-5"
+          src="./assets/house-gear-fill.svg"
+        />
       </div>
-      <div class="control control-2"></div>
-      <div class="control control-3"></div>
-      <div class="control control-4"></div>
-      <div class="control control-5"></div>
+      <div class="control control-2" data-id="About">
+        <img
+          class="pointer-events-none h-5 w-5"
+          src="./assets/person-lines-fill.svg"
+        />
+      </div>
+      <div class="control control-3" data-id="Portfolio">
+        <img class="pointer-events-none h-5 w-5" src="./assets/portfolio.svg" />
+      </div>
+      <div class="control control-4" data-id="Blogs">
+        <img class="pointer-events-none h-5 w-5" src="./assets/blog-fill.svg" />
+      </div>
+      <div class="control control-5" data-id="Contact">
+        <img
+          class="pointer-events-none h-5 w-5"
+          src="./assets/telephone-fill.svg"
+        />
+      </div>
     </div>
-    
+
     <script src="script.js"></script>
   </body>
 </html>

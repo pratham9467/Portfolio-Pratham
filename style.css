@@ -10,18 +10,19 @@
 }
 
 :root {
-  ----color-primary: #191d2b;
-  ----color-secondary: #27ae60;
-  --color-white: #ffffff;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #dbe1e8;
-  --color-grey-2: #b2becd;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #2a2e35;
-  --color-grey-6: #12181b;
+  ----color-primary: rgb(25, 29, 43);
+  ----color-secondary: rgb(39, 174, 96);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-grey0: rgb(248, 248, 248);
+  --color-grey-1: rgb(219, 225, 232);
+  --color-grey-2: rgb(178, 190, 205);
+  --color-grey-3: rgb(108, 121, 131);
+  --color-grey-4: rgb(69, 78, 86);
+  --color-grey-5: rgb(42, 46, 53);
+  --color-grey-6: rgb(18, 24, 27);
   --br-sm-2: 14px;
+  ---box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -60,28 +61,45 @@ section {
   top: 0;
   padding: 3rem 18rem;
 }
-.section{
+.section {
   transform: translateY(-100%);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
 }
-.sec1{
+.sec1 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec2{
+.sec2 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec3{
+.sec3 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec4{
+.sec4 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec5{
+.sec5 {
   display: none;
   transform: translateY(0) scale(1);
+}
+.control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem 0;
+  box-shadow: var(---box-shadow-1);
+}
+.active-btn{
+  background-color: var(----color-secondary);
+  transition: all 0.4s ease ;
 }

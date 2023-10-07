@@ -2,7 +2,13 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    colors: {
+      extend: {},
+      // Using modern `rgb`
+      primary: 'rgb(var(--color-primary) / <alpha-value>)',
+      secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+    }
+    
   },
   plugins: [],
 }
