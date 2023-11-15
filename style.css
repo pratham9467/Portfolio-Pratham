@@ -136,7 +136,7 @@ section {
 }
 .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
+  height: 93%;
   width: 65%;
   background-color: var(--color-black);
   margin-left: 2rem;
@@ -144,6 +144,7 @@ section {
   display: flex;
 }
 .image img {
+  object-fit: cover;
   align-self: center;
   transition: all 200ms ease-in-out;
   filter: grayscale(100%);
