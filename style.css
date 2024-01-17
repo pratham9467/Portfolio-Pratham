@@ -136,7 +136,7 @@ section {
 }
 .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 93%;
+  height: 90%;
   width: 65%;
   background-color: var(--color-black);
   margin-left: 2rem;
@@ -245,7 +245,7 @@ p .right-header {
   transition: all 400ms ease-in-out;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.right-about> :hover {
+.right-about > :hover {
   cursor: default;
   border: 1px solid var(----color-secondary);
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 20);
@@ -256,11 +256,11 @@ p .right-header {
   color: var(----color-secondary);
 }
 
-.left-about > p{
+.left-about > p {
   line-height: 1.5rem;
   color: var(--color-grey-1);
 }
-.left-about > h4{
+.left-about > h4 {
   font-size: 2rem;
   text-transform: uppercase;
 }
